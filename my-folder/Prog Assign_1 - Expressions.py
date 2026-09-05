@@ -10,3 +10,5 @@ elif equation == 3:
 elif equation == 4:
     total = num1 / num2
 print("The total is ", total)
+
+input("Press enter to exit")
