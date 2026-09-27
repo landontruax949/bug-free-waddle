@@ -15,3 +15,5 @@ for i in range(years):
         average = total / months
         # dividing the total inches of rainfall by the amount of months will give the average amount of rainfall
 else: print(total, "inches of rain fell over the course of", months, "month(s), or", years, "year(s).", "The average amount of rain per month was", average, "inches.")
+
+input("Press enter to exit.")
