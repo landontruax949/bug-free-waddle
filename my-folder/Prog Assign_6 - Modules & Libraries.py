@@ -1,4 +1,4 @@
-import Paint.py
+import Paint
 #contains data about the rates of the paint company
 
 squarefeet = int(input( "How much area needs to be painted? (in square feet.) "))
