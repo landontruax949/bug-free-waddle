@@ -39,4 +39,4 @@ for character in phone:
 
 print("The phone number is", translated)
 
-print("Press enter to exit.")
+input("Press enter to exit.")
