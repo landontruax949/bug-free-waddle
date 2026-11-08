@@ -72,3 +72,4 @@ else:
     incorrect += 1
 
 print("You got", correct, "correct and", incorrect, "incorrect.")
+input("Press enter to exit.")
