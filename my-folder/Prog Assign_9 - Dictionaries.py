@@ -59,17 +59,17 @@ correct = 0
 incorrect = 0
 
 for i in range(10):
-    state = random.choice(list(capitals.keys))
-# state will be randomly selected from the list above
-question = input("What is the capital of ", {state}, "?")
-answer = capitals[state]
+    state = random.choice(list(capitals))
+    # state will be randomly selected from the list above
+    question = input(f"What is the capital of {state}? ")
+    answer = capitals[state]
 
-if question == answer:
-    print("Correct!")
-    correct += 1
-else:
-    print("Incorrect.")
-    incorrect += 1
+    if question == answer:
+        print("Correct!")
+        correct += 1
+    else:
+        print("Incorrect.")
+        incorrect += 1
 
 print("You got", correct, "correct and", incorrect, "incorrect.")
 input("Press enter to exit.")
