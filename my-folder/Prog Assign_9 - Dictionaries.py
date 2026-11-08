@@ -55,6 +55,7 @@ capitals = {
  "Delaware": "Dover",
 
 }
+
 correct = 0
 incorrect = 0
 
@@ -63,13 +64,14 @@ for i in range(10):
     # state will be randomly selected from the list above
     question = input(f"What is the capital of {state}? ")
     answer = capitals[state]
-
+    # user is asked for a state, and the answer is the capital
     if question == answer:
         print("Correct!")
         correct += 1
     else:
         print("Incorrect.")
         incorrect += 1
+    # the code keeps track of answers
 
 print("You got", correct, "correct and", incorrect, "incorrect.")
 input("Press enter to exit.")
