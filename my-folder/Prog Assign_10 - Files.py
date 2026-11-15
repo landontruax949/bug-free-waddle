@@ -1,8 +1,8 @@
-file = int(input("Input the name of a file."))
+file = input("Input the name of a file.")
 
-infile = open(file, "r")
-contents = infile.readlines(1,5)
+with open(file, "r") as infile:
+    contents = infile.readlines()[:5]
 
-print(contents)
-
+print("".join(contents))
+infile.close()
 input("Press enter to exit.")
