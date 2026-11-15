@@ -1,6 +1,6 @@
 file = int(input("Input the name of a file."))
 
-infile = open(file)
+infile = open(file, "r")
 contents = infile.readlines(1,5)
 
 print(contents)
